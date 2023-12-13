@@ -1,0 +1,19 @@
+﻿<?xml version='1.0'?>
+<Obfuscator>
+	<Var name="InPath" value="./Bin/Release/" />
+	<Var name="OutPath" value="./Bin/Release/Obfuscar" />
+	<Var name="KeepPublicApi" value="true" />
+	<Var name="HidePrivateApi" value="true" />
+	<Var name="HideStrings" value="false" />
+	<Var name="UseUnicodeNames" value="true" />
+	<Var name="ReuseNames" value="false" />
+	<Var name="RenameFields" value="true" />
+	<Var name="RegenerateDebugInfo" value="false" />
+	<Var name="KeyFile" value="./SecurityNote.snk" />
+	<Module file="$(InPath)\SecurityNote.exe" />
+	<Module file="$(InPath)\SecurityNotePlugin.dll" />
+
+	<!--
+	<AssemblySearchPath path="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\" />
+	-->
+</Obfuscator>

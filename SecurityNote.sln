@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.3
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityNote", "SecurityNote\SecurityNote.csproj", "{0547303A-2173-4DE6-87A1-7753D998340E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityNotePlugin", "SecurityNotePlugin\SecurityNotePlugin.csproj", "{5024C099-A95E-4544-88A0-6D7AC2200818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TotpAuthenticatorPlugin", "TotpAuthenticatorPlugin\TotpAuthenticatorPlugin.csproj", "{978407F9-8C84-43DA-91B0-2FC35C699C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|X86 = Debug|X86
+		Release|Any CPU = Release|Any CPU
+		Release|X86 = Release|X86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0547303A-2173-4DE6-87A1-7753D998340E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0547303A-2173-4DE6-87A1-7753D998340E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0547303A-2173-4DE6-87A1-7753D998340E}.Debug|X86.ActiveCfg = Debug|X86
+		{0547303A-2173-4DE6-87A1-7753D998340E}.Debug|X86.Build.0 = Debug|X86
+		{0547303A-2173-4DE6-87A1-7753D998340E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0547303A-2173-4DE6-87A1-7753D998340E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0547303A-2173-4DE6-87A1-7753D998340E}.Release|X86.ActiveCfg = Release|X86
+		{0547303A-2173-4DE6-87A1-7753D998340E}.Release|X86.Build.0 = Release|X86
+		{5024C099-A95E-4544-88A0-6D7AC2200818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5024C099-A95E-4544-88A0-6D7AC2200818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5024C099-A95E-4544-88A0-6D7AC2200818}.Debug|X86.ActiveCfg = Debug|X86
+		{5024C099-A95E-4544-88A0-6D7AC2200818}.Debug|X86.Build.0 = Debug|X86
+		{5024C099-A95E-4544-88A0-6D7AC2200818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5024C099-A95E-4544-88A0-6D7AC2200818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5024C099-A95E-4544-88A0-6D7AC2200818}.Release|X86.ActiveCfg = Release|X86
+		{5024C099-A95E-4544-88A0-6D7AC2200818}.Release|X86.Build.0 = Release|X86
+		{978407F9-8C84-43DA-91B0-2FC35C699C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978407F9-8C84-43DA-91B0-2FC35C699C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978407F9-8C84-43DA-91B0-2FC35C699C5A}.Debug|X86.ActiveCfg = Debug|X86
+		{978407F9-8C84-43DA-91B0-2FC35C699C5A}.Debug|X86.Build.0 = Debug|X86
+		{978407F9-8C84-43DA-91B0-2FC35C699C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978407F9-8C84-43DA-91B0-2FC35C699C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978407F9-8C84-43DA-91B0-2FC35C699C5A}.Release|X86.ActiveCfg = Release|X86
+		{978407F9-8C84-43DA-91B0-2FC35C699C5A}.Release|X86.Build.0 = Release|X86
+	EndGlobalSection
+EndGlobal
